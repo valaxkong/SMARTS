@@ -29,9 +29,6 @@ import numpy as np
 from shapely.geometry import Polygon, box as shapely_box
 from shapely.affinity import rotate as shapely_rotate
 
-import traci.constants as tc
-from traci.exceptions import FatalTraCIError, TraCIException
-
 from smarts.core import gen_id
 from .colors import SceneColors
 from .coordinates import Heading, Pose
@@ -42,6 +39,8 @@ from .vehicle import VEHICLE_CONFIGS, VehicleState
 from .utils.sumo import SUMO_PATH, traci
 from .utils import networking
 
+import traci.constants as tc
+from traci.exceptions import FatalTraCIError, TraCIException
 
 class SumoTrafficSimulation:
     """
