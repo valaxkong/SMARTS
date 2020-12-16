@@ -42,6 +42,7 @@ from .utils import networking
 import traci.constants as tc
 from traci.exceptions import FatalTraCIError, TraCIException
 
+
 class SumoTrafficSimulation:
     """
     Args:
