@@ -67,11 +67,11 @@ setup(
     ],
     extras_require={
         "train": [
-            "tensorflow==2.2.1",
+            # "tensorflow==2.2.1",
             # XXX: TF requires specific version of scipy
-            "scipy==1.4.1",
-            "torch==1.4.0",
-            "torchvision==0.5.0",
+            # "scipy==1.4.1",
+            # "torch==1.4.0",
+            # "torchvision==0.5.0",
         ],
         "dev": [
             "black==19.10b0",
