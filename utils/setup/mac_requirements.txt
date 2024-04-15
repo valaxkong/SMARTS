@@ -14,7 +14,7 @@ decorator==5.1.1
 dm-tree==0.1.8
 exceptiongroup==1.2.0
 execnet==2.1.1
-filelock==3.13.3
+filelock==3.13.4
 flatbuffers==24.3.25
 frozenlist==1.4.1
 fsspec==2024.3.1
@@ -26,9 +26,9 @@ google-pasta==0.2.0
 grpcio==1.49.1
 Gymnasium==0.26.3
 gymnasium-notices==0.0.1
-h5py==3.10.0
+h5py==3.11.0
 hyperlink==21.0.0
-idna==3.6
+idna==3.7
 imageio==2.34.0
 importlib_metadata==7.1.0
 importlib_resources==6.4.0
@@ -105,9 +105,9 @@ tifffile==2023.7.10
 tomli==2.0.1
 torch==2.1.2
 torchvision==0.16.2
-trimesh==4.2.4
+trimesh==4.3.0
 Twisted==24.3.0
-typer==0.12.2
+typer==0.12.3
 typing_extensions==4.5.0
 tzdata==2024.1
 urllib3==2.2.1
@@ -116,4 +116,4 @@ Werkzeug==3.0.2
 wrapt==1.16.0
 yattag==1.15.2
 zipp==3.18.1
-zope.interface==6.2
+zope.interface==6.3
